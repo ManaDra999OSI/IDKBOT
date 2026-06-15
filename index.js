@@ -13,7 +13,7 @@ const client = new Client({
 });
 
 const OWNER_ID = "1414408612238983233";
-const ANNOUNCEMENT_CHANNEL_ID = "1516150134910750850";
+const ANNOUNCEMENT_CHANNEL_ID = "1516130109193719962";
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
